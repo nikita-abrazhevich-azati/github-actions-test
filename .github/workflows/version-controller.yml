@@ -17,6 +17,7 @@ jobs:
           npm version patch
       - name: Commit files
         run: |
+          git add package.json 
           git commit -m "Patch Version" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
