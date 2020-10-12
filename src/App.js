@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          some changes1d
+          some changes2d
         </p>
         <a
           className="App-link"
