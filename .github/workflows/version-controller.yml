@@ -2,8 +2,8 @@ name: Version-controller
 
 # Run this workflow every time a new commit pushed to your repository
 on: push
-    branches:
-      - master
+  branches:
+    - master
 jobs:
   patch:
       runs-on: ubuntu-latest
